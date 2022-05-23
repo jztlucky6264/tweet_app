@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  background: #90c1f1;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
+  margin-top: 2rem;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.heading {
+  text-shadow: 5px 3px 4px rgba(87, 151, 116, 0.95);
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: antiquewhite;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quotes {
+  font-size: 2rem;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+.quotes span {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  font-weight: normal;
+}
+.btn {
+  width: 15vw;
+  height: 6vh;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  margin: 0.7rem;
+  padding: 0.4rem 0.6rem;
+}
+.tweet_btn {
+  color: rgb(104, 166, 166);
+  background: rgb(66, 31, 98);
+}
+.tweet_btn:hover {
+  opacity: 0.8;
+  color: rgb(193, 224, 224);
+}
+.quotes_btn {
+  color: aqua;
+  background: #510858;
+}
+.quotes_btn:hover {
+  opacity: 0.8;
+  color: rgb(113, 136, 136);
 }
