@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
-  background: #90c1f1;
+  background: LightGray;
 }
 .wrapper {
   margin-top: 2rem;
@@ -21,6 +21,7 @@ body {
   color: antiquewhite;
 }
 .quotes {
+  color: #f1f5f9;
   font-size: 2rem;
   margin: 2rem 0;
   font-weight: bold;
